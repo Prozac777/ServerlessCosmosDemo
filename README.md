@@ -21,13 +21,13 @@ After we connect the sentiment output with our function, we're going to save thi
 	1.If prompted, give a connection name, then get the db Key from the Cosmos DB view in the portal
 	1.Enter the database and collection
 	1.Add in the JSON syntax below and use the parameters for the values shown.  *To make the GUID, you may have to maximize your browser window as the functionality is hidden*
-    {
-      "id": "guid()×​​",
-      "loc": "UserDetails.Location×​​",
-      "score": "Body×​​",
-      "tweet": "OriginalTweet×​​",
-      "user": "TweetedBy×​​"
-    }
+{
+"id": "guid()×​​",
+"loc": "UserDetails.Location×​​",
+"score": "Body×​​",
+"tweet": "OriginalTweet×​​",
+"user": "TweetedBy×​​"
+}
 1. Save the Logic app
 1. Click on the first step of the Logic App, and set the interval to 1 minute
 1. Verify data is going into Cosmos by using the Data Explorer in the Cosmos Portal View
