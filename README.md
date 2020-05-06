@@ -14,7 +14,7 @@ Start with the tutorial at https://docs.microsoft.com/en-us/azure/azure-function
 
 After we connect the sentiment output with our function, we're going to save this data into **Cosmos DB**
 
-Follow the first two steps at https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet and stop at adding sample data
+Follow the first two steps at https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal and stop at adding sample data
 
 1. Create a database account
 1. Create a collection
